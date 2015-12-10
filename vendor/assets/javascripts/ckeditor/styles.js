@@ -56,7 +56,14 @@ CKEDITOR.stylesSet.add( 'default', [
 	{ name: 'Subscript',		element: 'sub' },
 	{ name: 'Superscript',		element: 'sup' },
 	*/
-
+        { name: 'PesoFuente 100',     element: 'span', attributes: { 'class': 'fw-100' } },
+        { name: 'PesoFuente 200',     element: 'span', attributes: { 'class': 'fw-200' } },
+        { name: 'PesoFuente 300',     element: 'span', attributes: { 'class': 'fw-300' } },
+        { name: 'PesoFuente 400',     element: 'span', attributes: { 'class': 'fw-400' } },
+        { name: 'PesoFuente 500',     element: 'span', attributes: { 'class': 'fw-500' } },
+        { name: 'PesoFuente 600',     element: 'span', attributes: { 'class': 'fw-600' } },
+        { name: 'PesoFuente 700',     element: 'span', attributes: { 'class': 'fw-700' } },
+        { name: 'PesoFuente 800',     element: 'span', attributes: { 'class': 'fw-800' } },
 	{ name: 'Marker',			element: 'span', attributes: { 'class': 'marker' } },
 
 	{ name: 'Big',				element: 'big' },
